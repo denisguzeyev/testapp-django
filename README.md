@@ -72,16 +72,19 @@ Visit the url `http://localhost:8000/profile/1/` before changing the templates t
 
 The `POST` request is already made by the frontend. Feel free to change this if you want a different approach. After unfollowing the user is redirected back to the same page.
 
-## (logged in) homepage view
+## (Logged in) Homepage view
 
-The homepage should be just a list of latest 25 tweets from the users the currently logged in user is following. For an example of how the page should look like visit `http://localhost:8000/?example=true`. The times should be humanized, and the usernames should link to their profile pages, same as above.
+The homepage should be just a list of latest 15 tweets from the users the currently logged in user is following. If the user is not following anybody, he should see the latest tweets posted by any user. 
+
+For an example of how the page should look like visit `http://localhost:8000/?example=true`. The times should be humanized, and the usernames should link to their profile pages, same as above.
+
+## (Logged out) Homepage view
 
 If the user is not logged in then he sees the last 10 tweets posted by any user. The form for posting new tweets is hidden.
 
 ## Posting new tweets
 
-Logged in users should be able to post new tweets by simply filling in the text area and clicking "Post" button. This should make a simple HTML form post to the backend, which should then refresh the page by redirecting the user back to the home page. User can also see his own tweets.
-
+Logged in users should be able to post new tweets by simply filling in the text area and clicking "Post" button. This should make a simple HTML form post to the backend, which should then refresh the page by redirecting the user back to the home page. Users can see their own tweets. 
 
 ## Sample data
 
