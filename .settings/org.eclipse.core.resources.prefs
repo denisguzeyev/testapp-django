@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//testapp_django/settings/common.py=utf-8
+encoding//testapp_django/settings/local.py=utf-8
+encoding//testapp_django/settings/production.py=utf-8
+encoding//testapp_django/urls.py=utf-8

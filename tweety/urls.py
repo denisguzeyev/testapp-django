@@ -10,7 +10,7 @@ urlpatterns = [
     ),
 
     url(
-        regex=r'^profile/(?P<id>[0-9]+)/$',
+        regex=r'profile/(?P<id>[0-9]+)/$',
         view=views.ProfileView.as_view(),
         name='profile'
     ),
